@@ -8,6 +8,7 @@ const Profile = ({ refreshUser, userObj }) => {
   const onLogOutClick = () => {
     authService.signOut();
     history.push("/");
+    refreshUser();
   };
 
   const onSubmit = async (event) => {
@@ -15,6 +16,7 @@ const Profile = ({ refreshUser, userObj }) => {
     if (userObj.displayName !== newDisplayName) {
       await userObj.updateProfile({ displayName: newDisplayName });
     }
+    refreshUser();
   };
   const onChange = (event) => {
     const {
@@ -24,18 +26,25 @@ const Profile = ({ refreshUser, userObj }) => {
   };
 
   return (
-    <>
-      <form onSubmit={onSubmit}>
+    <div className="profileContainer">
+      <form onSubmit={onSubmit} className="profileForm">
         <input
           onChange={onChange}
           type="text"
           placeholder="Display Name"
           value={newDisplayName}
+          className="profileInput"
         />
-        <input type="submit" value="Update Profile" />
+        <input
+          type="submit"
+          value="Update Profile"
+          className="profileSubmitBtn"
+        />
+        <div>
+          <button onClick={onLogOutClick}>Log Out</button>
+        </div>
       </form>
-      <button onClick={onLogOutClick}>Log Out</button>
-    </>
+    </div>
   );
 };
 

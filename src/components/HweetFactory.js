@@ -26,7 +26,7 @@ const HweetFactory = ({ userObj }) => {
     };
     await dbService.collection("hweets").add(hweetObj);
     setHweet("");
-    setAttachment("");
+    onClearAttachment();
   };
 
   const onChange = (e) => {

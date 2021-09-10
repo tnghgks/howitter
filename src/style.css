@@ -3,6 +3,9 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+a {
+  color: #0fbcf9;
+}
 a:visited {
   color: #0fbcf9;
 }
@@ -96,6 +99,7 @@ body {
 nav {
   width: 100%;
   margin-top: 50px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -249,6 +253,52 @@ nav div {
   width: 100%;
 }
 .updateBtnContainer .updateCancleBtn {
+  color: white;
+  box-sizing: border-box;
+  border-radius: 15px;
+  border: none;
+  height: 30px;
+  background-color: #e74c3c;
+  text-align: center;
+  width: 100%;
+}
+
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileForm {
+  max-width: 320px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileForm input {
+  margin-bottom: 10px;
+}
+
+.profileForm .profileInput {
+  color: #000;
+}
+.profileForm .profileSubmitBtn {
+  background-color: #0fbcf9;
+  text-align: center;
+}
+
+.profileForm div {
+  width: 100%;
+  border-top: 1px solid #fff;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profileForm div button {
   color: white;
   box-sizing: border-box;
   border-radius: 15px;

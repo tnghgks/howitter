@@ -1,6 +1,5 @@
 import { dbService, storageService } from "fbase";
-import React from "react";
-import { useState } from "react/cjs/react.development";
+import React, { useState } from "react";
 import { faTrashAlt, faEdit } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
