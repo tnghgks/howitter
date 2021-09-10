@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/howitter/static/css/main.962fee54.chunk.css",
+    "main.css": "/howitter/static/css/main.d65e3edb.chunk.css",
     "main.js": "/howitter/static/js/main.f84d551a.chunk.js",
     "main.js.map": "/howitter/static/js/main.f84d551a.chunk.js.map",
     "runtime-main.js": "/howitter/static/js/runtime-main.cd38bb7c.js",
@@ -8,13 +8,13 @@
     "static/js/2.483f07de.chunk.js": "/howitter/static/js/2.483f07de.chunk.js",
     "static/js/2.483f07de.chunk.js.map": "/howitter/static/js/2.483f07de.chunk.js.map",
     "index.html": "/howitter/index.html",
-    "static/css/main.962fee54.chunk.css.map": "/howitter/static/css/main.962fee54.chunk.css.map",
+    "static/css/main.d65e3edb.chunk.css.map": "/howitter/static/css/main.d65e3edb.chunk.css.map",
     "static/js/2.483f07de.chunk.js.LICENSE.txt": "/howitter/static/js/2.483f07de.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.cd38bb7c.js",
     "static/js/2.483f07de.chunk.js",
-    "static/css/main.962fee54.chunk.css",
+    "static/css/main.d65e3edb.chunk.css",
     "static/js/main.f84d551a.chunk.js"
   ]
 }
