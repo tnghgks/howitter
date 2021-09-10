@@ -8,6 +8,7 @@ const HweetFactory = ({ userObj }) => {
   const [hweet, setHweet] = useState("");
   const [attachment, setAttachment] = useState("");
   const fileInput = useRef();
+
   const onSubmit = async (e) => {
     e.preventDefault();
     let attachmentUrl = "";
@@ -53,7 +54,7 @@ const HweetFactory = ({ userObj }) => {
 
   const onClearAttachment = () => {
     fileInput.current.value = null;
-    setAttachment(null);
+    setAttachment("");
   };
   return (
     <form onSubmit={onSubmit} className="hweetForm">
