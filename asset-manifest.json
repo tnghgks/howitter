@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/howitter/static/css/main.d65e3edb.chunk.css",
-    "main.js": "/howitter/static/js/main.f84d551a.chunk.js",
-    "main.js.map": "/howitter/static/js/main.f84d551a.chunk.js.map",
+    "main.js": "/howitter/static/js/main.cb53ce41.chunk.js",
+    "main.js.map": "/howitter/static/js/main.cb53ce41.chunk.js.map",
     "runtime-main.js": "/howitter/static/js/runtime-main.cd38bb7c.js",
     "runtime-main.js.map": "/howitter/static/js/runtime-main.cd38bb7c.js.map",
     "static/js/2.483f07de.chunk.js": "/howitter/static/js/2.483f07de.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.cd38bb7c.js",
     "static/js/2.483f07de.chunk.js",
     "static/css/main.d65e3edb.chunk.css",
-    "static/js/main.f84d551a.chunk.js"
+    "static/js/main.cb53ce41.chunk.js"
   ]
 }
